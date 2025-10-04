@@ -290,13 +290,13 @@ main {
     transform: translateY(-2px);
 }
 
-/* Experience Section */
-.experience-grid {
+/* Club Activities Section */
+.club-activities-grid {
     display: grid;
     gap: var(--spacing-xl);
 }
 
-.experience-item {
+.club-activity-item {
     background: var(--bg-card);
     padding: var(--spacing-xl);
     border-radius: var(--radius-lg);
@@ -304,18 +304,18 @@ main {
     transition: all 0.3s ease;
 }
 
-.experience-item:hover {
+.club-activity-item:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-lg);
     border-color: var(--primary-color);
 }
 
-.experience-item h3 {
+.club-activity-item h3 {
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
 }
 
-.company {
+.role {
     font-weight: 600;
     color: var(--text-primary);
     margin-bottom: var(--spacing-xs);
@@ -327,19 +327,19 @@ main {
     margin-bottom: var(--spacing-md);
 }
 
-.experience-item ul {
+.club-activity-item ul {
     list-style: none;
     padding-left: 0;
 }
 
-.experience-item li {
+.club-activity-item li {
     position: relative;
     padding-left: var(--spacing-lg);
     margin-bottom: var(--spacing-sm);
     color: var(--text-secondary);
 }
 
-.experience-item li::before {
+.club-activity-item li::before {
     content: '▶';
     position: absolute;
     left: 0;
@@ -729,7 +729,7 @@ main {
         margin: var(--spacing-xl) 0;
     }
     
-    .experience-item,
+    .club-activity-item,
     .education-item,
     .skill-category,
     .project-card,
